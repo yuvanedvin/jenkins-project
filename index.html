@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jenkins Pipeline Deployment</title>
-    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jenkins Pipeline Deployment</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>Pipeline deployment of website using Jenkins</h1>
-    <p>This is a simple static site deployed via Jenkins pipeline.</p>
+  <div class="container">
+    <h1>Pipeline Deployment of Website using Jenkins</h1>
+    <p id="message">This is a simple interactive static website.</p>
+
+    <button id="changeBtn">Click me!</button>
+
+    <div class="counter">
+      <p>Button clicked <span id="count">0</span> times.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
